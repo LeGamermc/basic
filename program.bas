@@ -8,4 +8,5 @@
 43 if N = "manual" then print "manual \n type help for see all command in the terminal"
 45 if N = "bugk" then print "bug know \n no bug found\n"
 90 goto 10
-100 print "exited"
+100 print " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+110 print "exited"
