@@ -7,12 +7,13 @@
 
 6 print "Kshell V0.1"
 7 pause 500
-10 INPUT "term>";N
-25 if N = "help" then print "help system \n clear: clear screen \n exit for exit the terminal \n bugk for see the list of bug \n manual"
+10 INPUT "term>"; N
+25 if N = "help" then print "help system \n clear: clear screen \n exit for exit the terminal \n bugk for see the list of bug \n echo drop you in the echo command line \n"
 35 if N = "clear" then goto 91
 40 if N = "exit" then goto 100
-43 if N = "manual" then print "manual \n type help for see all command in the terminal"
-45 if N = "bugk" then print "bug know \n no bug found\n"
+43 if N = "bugk" then print "bug know \n no bug found\n"
+44 if N = "echo" then goto 250
+
 90 goto 10
 
 91 print " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
@@ -28,6 +29,11 @@
 122 PLOT 2, 0, "red"
 123 PLOT 0, 2, "red"
 124 goto 10
+
+250 INPUT "echo>"; e
+252 if e = "exit" then goto 10
+251 print e 
+253 goto 250
 
 100 print " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
 110 print "exited"
